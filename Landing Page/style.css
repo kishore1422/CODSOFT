@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+  background: linear-gradient(to right, #305c79, #0bac6e);
+  color: white;
+  padding: 50px 0;
+}
+.container {
+  width: 75%;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col {
+  flex: 1;
+  padding: 20px;
+}
+.text-container h1 {
+  font-size: 2.5em;
+}
+.button-group {
+  margin-top: 20px;
+}
+.btn {
+  background: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+.btn.apple img, .btn.google img {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.responsive-image {
+  max-width: 100%;
+  min-width: 20%;
+  height: auto;
+  border-radius: 5%;
+}
+#features .feature {
+  text-align: center;
+}
+#features .icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+} section#testimonial {
+  background-color: #ebebeb;
+  padding: 50px 0;
+}
+.text-center{
+  text-align: center;
+}
+.logos {
+display: flex;
+height: 70px;
+justify-content: space-evenly;
+}
+#testimonial blockquote {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+#testimonial .profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+#pricing {
+  background: #fff;
+  padding: 50px 0;
+}
+#pricing .pricing-plan {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+#pricing .pricing-plan .price {
+  font-size: 2em;
+  margin: 20px 0;
+}
+#pricing .btn {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+#pricing .btn:hover {
+  background: #555;
+}
+footer {
+  background: #333;
+  color: white;
+  padding: 40px 0;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+}
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .col {
+  flex: 1;
+  padding: 20px;
+}
+footer h4 {
+  margin-bottom: 20px;
+}
+footer p, footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+footer .social-links a {
+  color: white;
+  text-decoration: none;
+}
+footer .social-links a:hover {
+  text-decoration: underline;
+}
+footer .text-center {
+  text-align: center;
+  margin-top: 20px;
+}
