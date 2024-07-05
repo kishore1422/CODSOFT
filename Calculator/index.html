@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <div id="previous-operand" class="previous-operand"></div>
+      <div id="current-operand" class="current-operand">0</div>
+    </div>
+    <button class="span-two" onclick="clearDisplay()">AC</button>
+    <button onclick="deleteNumber()">DEL</button>
+    <button onclick="chooseOperation('/')">÷</button>
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="chooseOperation('*')">*</button>
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="chooseOperation('-')">-</button>
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="chooseOperation('+')">+</button>
+    <button onclick="appendNumber('.')">.</button>
+    <button onclick="appendNumber('0')">0</button>
+    <button class="span-two" onclick="compute()">=</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
