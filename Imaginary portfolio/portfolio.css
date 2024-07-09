@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background: #6c5ce7;
+    color: #fff;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+
+#hero h1 {
+    margin: 0 0 20px;
+    font-size: 2.5rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    padding: 3rem 1rem;
+    background: #ffeaa7;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 3rem 1rem;
+    background: #74b9ff;
+    text-align: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(50% - 2rem);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* Skills Section */
+#skills {
+    padding: 3rem 1rem;
+    background: #55efc4;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #00b894;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+#resume{   
+    background: #6c5ce7;
+    padding: 5rem 1rem;
+    text-align: center;
+}
+#resume h2 {
+    margin: 0 0 20px;
+   
+}
+
+#resume p {
+    font-size: 1.2rem;
+}
+#resume a {
+    color: #ddd8d8;
+    text-decoration: none;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 3rem 1rem;
+    background: #fdcb6e;
+    text-align: center;
+}
+
+#contact a {
+    color: #9430d6;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #2d3436;
+    color: #b2bec3;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .project-card {
+        width: calc(100% - 2rem);
+    }
+}
